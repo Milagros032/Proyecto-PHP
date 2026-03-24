@@ -2,10 +2,9 @@
 
 class QueryModel
 {
-    private $pdo;// cambia la variable  pdo a un estado privado, es decir que solo se puede usar dentro de la clase, solamente se puede ver o acceder desde afuera a estas variables usando setter(setear), getter(obtener), y teniendola privada yo controlo como quiero que se vea desde afuera
-
-    public function __construct(PDO $pdo) //en el parametro le pasa primero el tipo de dato que va a usar y despues el nombre de la variable
-    {
+    private $pdo;
+    public function __construct(PDO $pdo) 
+ {
         $this->pdo = $pdo;
     }
 
