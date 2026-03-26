@@ -49,9 +49,7 @@ Siga estos pasos para ejecutar el proyecto en su entorno local:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/Milagros032/Proyecto_PHP.git](https://github.com/Milagros032/Proyecto_PHP.git)
-cd Proyecto_PHP
-
+https://github.com/Milagros032/Proyecto-PHP.git
 ```
 ### 2. Instalar dependencias (Twig)
 Es necesario tener Composer instalado. Ejecute el siguiente comando en la raíz del proyecto:
